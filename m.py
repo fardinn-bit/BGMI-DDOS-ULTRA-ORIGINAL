@@ -16,9 +16,9 @@ load_dotenv()
 
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("7175088392:AAGFSE90CZV5u_5Jr104j0LfL_ljEqp2EvY")
 MONGO_URI = os.getenv("MONGO_URI")
-CHANNEL_ID = os.getenv("CHANNEL_ID")
+CHANNEL_ID = os.getenv("1676270773")
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
